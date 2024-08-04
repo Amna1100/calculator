@@ -1,0 +1,63 @@
+.card {
+    position: absolute;
+    top: 26%;
+    left: 38%;   
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius:30px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   }
+   
+  .shadow {
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),  0 0  0 2px rgb(190, 190, 190),0.3em 0.3em 1em rgba(0,0,0,0.3);
+   }
+  .Calculator
+  {
+position: absolute;
+top: 5%;
+left: 8%;
+margin: 0 auto;
+  }
+  .Calculator input
+  {
+grid-column: span 4;
+height: 45px;
+width: 200px;
+background-color: #ecf0f3;
+ 
+box-shadow: inset -5px -5px 12px #ffff,inset 5px 5px 12px rgba(0,0,0,.16);
+border: none;
+border-radius: 30px;
+color: rgba(70,70,70);
+font-size: 20px;
+text-align: end;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 22px;
+ 
+  }
+  button
+  {
+height: 43px;
+width: 43px;
+background-color:  #ecf0f3;
+box-shadow: -5px -5px 12px #ffff,5px 5px 12px rgba(0,0,0,.16);
+border: none;
+border-radius: 50%;
+margin: 2px;
+font-size: 14px;
+
+  }
+button:hover
+{
+  background-color:  #ecf0f31e;
+}
+
+  .equal
+  {
+    width: 100px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffff,5px 5px 12px rgba(0,0,0,.1.6);
+  }
